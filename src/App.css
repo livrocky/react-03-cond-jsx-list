@@ -1,0 +1,29 @@
+.card {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .card.dark {
+    background-color: #333;
+    color: snow;
+  }
+  
+  .text-large {
+    font-size: 28px;
+  }
+  
+  .header {
+    background-color: #333;
+    color: snow;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .navLink {
+    font-size: 18px;
+    text-decoration: none;
+    color: snow;
+    padding: 5px 15px;
+    display: inline-block;
+  }
