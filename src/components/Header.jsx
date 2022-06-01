@@ -9,15 +9,20 @@ const navData = [
     return (
       <header className='header'>
         <nav className='main-nav'>
-          <a href={navData[0].to} className='navLink'>
+          {navData.map((nObj) => (
+            <a key={nObj.id} href={nObj.to} className='navLink'>
+              {nObj.text}
+            </a>
+          ))}
+          {/* <a href={navData[0].to} className='navLink'>
             {navData[0].text}
           </a>
-          <a href={navData[1].to} className='navLink'>
+          <a href={navData[1].to} className='navLink active'>
             {navData[1].text}
           </a>
           <a href={navData[2].to} className='navLink'>
             {navData[2].text}
-          </a>
+          </a> */}
         </nav>
       </header>
     );

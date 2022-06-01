@@ -1,10 +1,3 @@
-// function BestBtn(props) {
-// const IsLarge = props.large;
-// const cardClasses = IsLarge ? 'best-btn' : 'card';
-// if (IsLarge)
-//     return  <button className='best-btn'>BEST BUTTON</button>;
-// };
-
-// export default BestBtn;
-
-// REIKS PASIBAIGTI //
+function BestBtn(props) {
+  return <button className={`bBtn ${props.large ? 'large' : ''}${props.accent ? 'accent' : ''}`}> Best btn </button>;
+}

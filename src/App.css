@@ -1,4 +1,10 @@
-.card {
+
+   
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  .card {
     display: inline-block;
     border: 1px solid #000;
     border-radius: 5px;
@@ -26,4 +32,7 @@
     color: snow;
     padding: 5px 15px;
     display: inline-block;
+  }
+  .navLink.active {
+    background-color: rgb(110, 110, 110);
   }
